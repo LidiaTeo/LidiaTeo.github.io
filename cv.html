@@ -1,7 +1,48 @@
 <!DOCTYPE html>
 <title>CV Curcan Lidia</title>
+<style>
+    table {
+      border-collapse: collapse;
+      width: 30%;
+      text-align: center;
+    }
+    
+    tr {
+      border-bottom: 1px solid #ddd;
+    }
+    .topnav {
+  overflow: hidden;
+  background-color: #333;
+
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #34aaef;
+  color: white;
+}
+    </style>
 <body>
+  <div class="topnav">
+    <a  href="home.html">Home</a>
+    <a class="active" href="cv.html">Curriculum Vitae</a>
+    <a  href="formular_contact.html">Contact</a>
+  </div>
 <section style="background-color: rgb(199, 194, 194); color:black;padding: 20px;">
+  <div class="main">
     <h2> Curcan Lidia Teodora</h2> 
 <section>
     <h3 style="background-color:gray">Education</h3>
@@ -23,13 +64,44 @@
 <section>
     <h3 style="background-color:gray">Skills</h3>
     <ul>
+        <li>Programming and markup languages: </li>
+        <br>
+        <div style="overflow-x:auto;">
+        <table class="center"   border-spacing: 30px;>
+            <tr>
+              <th>Language</th>
+              <th>Level</th>
+              <th>Type</th>
+            </tr>
+            <tr>
+              <td>C</td>
+              <td>intermediate</td>
+              <td>programming</td>
+            </tr>
+            <tr>
+              <td>C++</td>
+              <td>intermediate</td>
+              <td>programming</td>
+            </tr>
+            <tr>
+              <td>HTML</td>
+              <td>intermediate</td>
+              <td>markup</td>
+            </tr>
+            <tr>
+                <td>CSS</td>
+                <td>beginner</td>
+                <td>style</td>
+              </tr>
+          </table>
+        </div>
+        <br>
         <li>Problem-solving</li>
         <li><em>Communication skills</em></li>
         <li><em>Algorithm implementation</em></li>
-        <li><em>C, C++</em></li>
         <li>Mathematics</li>
         <li><em>Microsoft Office</em></li>
-        <li>HTML, XML</li>
+        <li>XML</li>
     </ul>
 </section>
 <section>
@@ -49,5 +121,6 @@
     </ul>
 </section>
 </section>
+</div>
 </body>
 </html>
